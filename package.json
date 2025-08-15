@@ -1,0 +1,23 @@
+{
+  "name": "team-goals-tracker",
+  "version": "1.0.0",
+  "description": "A collaborative tool for teams to set, track, and celebrate their goals in a visual format.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "react-scripts start",
+    "server": "nodemon server.js",
+    "dev": "concurrently "npm run server" "npm run client""
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.1.2",
+    "cors": "^2.8.5",
+    "concurrently": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
