@@ -1,4 +1,11 @@
 node_modules/
-dist/
-doc/
+# Ignore distribution directory
+/dist/
+# Ignore documentation output
+/doc/
+# Ignore environment variable file
 /.env
+# Ignore test coverage directory
+/coverage/
+# Ignore build directories
+/build/
